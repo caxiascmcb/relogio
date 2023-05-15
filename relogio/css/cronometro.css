@@ -122,3 +122,20 @@ button{
 .img img{
     width: 400px;
 }
+
+@media (max-width: 700px) {
+
+    .relogio{
+        flex-direction: column;
+    }
+
+    .img img{
+        width: 300px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
