@@ -87,9 +87,43 @@ button{
     transform: scale(1.1);
 }
 
-@media (max-width 700px) {
-    #relogio,
-    .relogio{
+@media (max-width: 700px) {
+    #relogio{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
     }
+
+    .relogio{
+        height: 100px;
+        width: 300px;
+        align-items: center;
+        margin-right: 180px;
+    }
+    .relogio div{
+        height: 90px;
+        width: 80px;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    .relogio span{
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    img{
+        margin: 20px auto;
+        width: 200px;
+    }
+
+    button{
+        width: 120px;
+        height: 40px;
+        align-items: center;
+        font-size: 15px;
+    }
+
 }
